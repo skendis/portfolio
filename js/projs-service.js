@@ -21,8 +21,8 @@ function getProjs(){
 
 function createProjs() {
     var projects = [
-        createProj('Minesweeper', 'logic game using matrix', 'logic game using matrix', 'testUrl','img/portfolio/06-thumbnail.jpg', ['matrix', 'arrays']),
-        createProj('Book Shop', 'simple CRUD app', 'simple CRUD app', 'testUrl','img/portfolio/06-thumbnail.jpg', ['MVC', 'arrays']),
+        createProj('Minesweeper', 'logic game using matrix', 'logic game using matrix', 'projs/minesweeper','img/portfolio/minesweeper.png', ['matrix', 'arrays']),
+        createProj('Guess-Me', 'akinator', 'app for guessing youur answer', 'projs/guessMe','img/portfolio/guess-me.png', ['MVC', 'binary trees']),
     ]
 
     gProjs = projects;

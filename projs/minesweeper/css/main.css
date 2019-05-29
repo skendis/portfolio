@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ffba42;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+
+}
+/* check why it won't work without important */
+.shown{
+    background-color: white !important;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+    width:100%;
+}
+.board td{
+    width: 49px;
+    height:49px;
+    text-align: center;
+    font-size:1.4em;
+    border: 3px solid #ffba42;
+    border-collapse: collapse;
+    background-color: #bdbdd3;
+    color: #292215;
+    /* box-shadow: 1px 3px 5px 1px #000; */
+}
+.board{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.counter{
+    color:#3259B3;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.reset-btn{
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    box-shadow: 1px 3px 5px 1px #000;
+    background-color: #3259B3;
+}
+.mine-step{
+    background-color: red !important;
+}
+.revealed-cell{
+    background-color: lightgrey!important;
+}
+.game-lvl-select{
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.lives-count{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

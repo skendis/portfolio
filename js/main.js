@@ -20,9 +20,9 @@ function renderModal(project) {
                     <li>Date: ${formatDate(projDate)}</li>
                     <li>Category: ${project.labels}</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fa fa-times"></i>
-                Close Project</button>`
+                <a href="${project.url}/">check project</a>
+                <br>
+                `
     $('.modal-body').html(strHtml);
 }
 function onOpenModal(projId) {
